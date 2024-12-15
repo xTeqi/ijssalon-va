@@ -11,4 +11,6 @@ reclame_tekst2 = reclame_tekst[:63]
 
 reclame_tekst3 = reclame_tekst2.upper()
 
-print (reclame_tekst3)
+reclame_tekst4 = reclame_tekst3.split(" ")
+
+print (reclame_tekst4)
