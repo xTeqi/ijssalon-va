@@ -19,3 +19,10 @@ def laag_en_hoog():
         max(mijn_lijst)
     ]
 print (laag_en_hoog())
+
+def gemiddelde():
+    mijn_lijst = [220,430,125,160,205,90,345]
+    gemiddeld_bedrag = sum(mijn_lijst) / len(mijn_lijst)
+    gemiddeld_bedrag_format = f"{gemiddeld_bedrag:.2f}".replace('.' , ',')
+    return f"De gemiddelde inkomsten deze week zijn {gemiddeld_bedrag_format} euro."
+print (gemiddelde())
