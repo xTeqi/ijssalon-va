@@ -1,9 +1,10 @@
 def aanbieding_1(smaak, prijs, korting):
     prijs_na_korting = prijs * (1 - korting)
-    prijs_na_korting_format = f"{prijs_na_korting:.2f}".replace('.' , ',')
-    uitvoer = f"Vandaag in de aanbieding: Emmertje ijs (1 liter) in de smaak {smaak}, van {prijs} voor {prijs_na_korting_format} euro."
-    return uitvoer
-print(aanbieding_1("aardbei",4,0.1))
+    return f"Vandaag in de aanbieding: Emmertje ijs (1 liter) in de smaak {smaak}, van {prijs} voor €{prijs_na_korting:.2f} euro."
+print (aanbieding_1("aardbei",4,0.1))
+
+"""
+from algemene_functies import mijn_functie_2
 
 def inkomsten_totaal():
     inkomsten = sum([220,430,125,160,205,90,345])
@@ -26,3 +27,4 @@ def gemiddelde():
     gemiddeld_bedrag_format = f"{gemiddeld_bedrag:.2f}".replace('.' , ',')
     return f"De gemiddelde inkomsten deze week zijn {gemiddeld_bedrag_format} euro."
 print (gemiddelde())
+"""
