@@ -3,6 +3,11 @@ def aanbieding_1(smaak, prijs, korting):
     return f"Vandaag in de aanbieding: Emmertje ijs (1 liter) in de smaak {smaak}, van {prijs} voor €{prijs_na_korting:.2f} euro."
 print (aanbieding_1("aardbei",4,0.1))
 
+def inkomsten_totaal(inkomsten):
+    return sum(inkomsten)
+weekinkomsten = [220,430,125,160,205,90,345]
+print (inkomsten_totaal(weekinkomsten))
+
 """
 from algemene_functies import mijn_functie_2
 
