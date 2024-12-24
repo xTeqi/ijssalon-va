@@ -26,3 +26,8 @@ def gemiddelde(mijn_lijst):
     gemiddelde_bedrag = sum(mijn_lijst) / len(mijn_lijst)
     return f"De gemiddelde inkomsten deze week zijn {gemiddelde_bedrag:.2f} euro."
 print(gemiddelde(inkomsten_per_dag))
+
+## Meervoudig
+def meervoudig(invoer_lijst):
+    return laag_en_hoog(invoer_lijst)
+print(meervoudig([10,5,3,2,1,2,9]))
