@@ -1,3 +1,6 @@
+## Imports
+from algemene_functies import mijn_functie_2
+
 ## Inkomsten per dag lijst
 inkomsten_per_dag = [220, 430, 125, 160, 205, 90, 345]
 
@@ -31,3 +34,10 @@ print(gemiddelde(inkomsten_per_dag))
 def meervoudig(invoer_lijst):
     return laag_en_hoog(invoer_lijst)
 print(meervoudig([10,5,3,2,1,2,9]))
+
+## Combinatie
+def combinatie(invoer_lijst_2):
+    korte_lijst = meervoudig(invoer_lijst_2)
+    uitvoer = mijn_functie_2()
+    return uitvoer
+print(combinatie([""]))
