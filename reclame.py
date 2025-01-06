@@ -23,5 +23,6 @@ print(laag_en_hoog([220, 430, 125, 160, 205, 90, 345]))
 
 ## Gemiddelde
 def gemiddelde(mijn_lijst):
-    return sum(mijn_lijst) / len(mijn_lijst)
+    gemiddelde_bedrag = sum(mijn_lijst) / len(mijn_lijst)
+    return f"De gemiddelde inkomsten deze week zijn {gemiddelde_bedrag:.2f} euro."
 print(gemiddelde([220, 430, 125, 160, 205, 90, 345]))
