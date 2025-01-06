@@ -20,3 +20,8 @@ def laag_en_hoog(mijn_lijst):
     hoog = max(mijn_lijst)
     return [laag, hoog]
 print(laag_en_hoog([220, 430, 125, 160, 205, 90, 345]))
+
+## Gemiddelde
+def gemiddelde(mijn_lijst):
+    return sum(mijn_lijst) / len(mijn_lijst)
+print(gemiddelde([220, 430, 125, 160, 205, 90, 345]))
