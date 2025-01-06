@@ -38,9 +38,9 @@ def combinatie(invoer_lijst_2):
 
 ## Digitale inkt
 print(
-    aanbieding_1("aardbei",4,0.1),
-    inkomsten_totaal(inkomsten_per_dag, 0.09), 
-    laag_en_hoog(inkomsten_per_dag), 
-    meervoudig([10,5,3,2,1,2,9]), 
+    aanbieding_1("aardbei",4,0.1), "\n",
+    inkomsten_totaal(inkomsten_per_dag, 0.09), "\n",
+    laag_en_hoog(inkomsten_per_dag), "\n",
+    meervoudig([10,5,3,2,1,2,9]), "\n",
     combinatie([""])
     )
